@@ -22,7 +22,7 @@ Usage
 The module is designed to be simple and easy to use and follows Wunderground's API verbiage almost exclusively.  Please see the Wunderground documentation for a list of all available options.
 
 ```javascript
-var wunderground = require('node-wunderground')('my-api-key');
+var wunderground = require('wunderground')('my-api-key');
 
 var query = {
 	city  : 'San Francisco',
